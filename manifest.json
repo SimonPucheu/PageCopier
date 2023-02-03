@@ -1,0 +1,14 @@
+{
+    "name": "Page Copier",
+    "action": {},
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "Copy the current page on a server to have access to the page as a permanant file",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
